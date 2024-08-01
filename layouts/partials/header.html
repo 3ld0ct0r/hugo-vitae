@@ -1,0 +1,40 @@
+<header class="three columns">
+  <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+  <h1>{{ .Site.Params.author }}</h1>
+  <p>
+    <a href="tel:{{ .Site.Params.tel_full }}">{{ .Site.Params.tel }}</a>
+  </p>
+  <address>
+    <a href="{{ .Site.Params.google_maps }}">
+      {{ .Site.Params.address }}<br/>
+      {{ .Site.Params.postcode }}<br/>
+      {{ .Site.Params.city }}<br/>
+      {{ .Site.Params.country }}
+    </a>
+  </address>
+  <p>
+    <a href="{{ .Site.Params.website_full }}">{{ .Site.Params.website }}<i class="fa fa-file-pdf-o"></i>&nbsp;Download</a>
+  </p>
+  <p>
+    <!--a href="{{ .Site.Params.email_full }}">{{ .Site.Params.email }}</a-->
+    <!--a href="http://twitter.com/{{ .Site.Params.twitter }}"><i class="fa fa-twitter"></i>&nbsp;Twitter</a> &nbsp; -->
+    <a href="{{ .Site.Params.email_full }}"><i class="fa fa-envelope"></i>&nbsp;email</a> &nbsp;
+    <a href="http://linkedin.com/in/{{ .Site.Params.linkedin }}"><i class="fa fa-linkedin"></i>&nbsp;LinkedIn</a> &nbsp;
+    <a href="http://github.com/{{ .Site.Params.github }}"><i class="fa fa-github"></i>&nbsp;Github</a>
+    <a href="https://discordapp.com/users/{{ .Site.Params.discord }}"><i class="fa fa-discord"></i>&nbsp;Discord</a>
+  </p>
+
+    <header>
+      <h5>{{ .Site.Data.skills.name }}</h5>
+      <h5>{{ .Site.Data.skills.title }}</h5>
+    </header>
+    <small>
+    {{ range .Site.Data.skills.source }}
+    <p>
+      {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
+        &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
+    </p>
+    {{ end }}
+    </small>
+</header>
+
