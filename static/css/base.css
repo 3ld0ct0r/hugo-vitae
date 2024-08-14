@@ -32,7 +32,8 @@
 		font: inherit;
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block; }
+		display: block; 
+		text-align: center; }
 	body {
 		line-height: 1; }
 	ol, ul {
