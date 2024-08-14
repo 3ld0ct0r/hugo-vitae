@@ -169,11 +169,13 @@ em {
     .container > header {
         font-size: 80%;
         line-height: 160%;
+        text-align: left;
     }
 
     article > header > span {
         font-size: 80%;
         line-height: 80%;
+        text-align: left;
     }
 }
 
