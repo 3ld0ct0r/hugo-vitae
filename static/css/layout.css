@@ -40,16 +40,16 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #1dae00;
+    color: #0066AE;
 
 }
 header > h5, section > h5 {
-    color: #0066AE;
+    color: #1dae00;
 
 }
 header > h1 {
     line-height: 100%;
-    font-size: 140%;
+    font-size: 160%;
     margin-bottom: 10px;
 
 }
