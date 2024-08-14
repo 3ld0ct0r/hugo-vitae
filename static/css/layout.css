@@ -54,7 +54,7 @@ header > h1 {
 
 }
 
-section > h5 {
+header > h1, section > h1, header > h5 {
     font-size: 120%;
     line-height: 120%;
     text-transform: uppercase;
@@ -72,12 +72,6 @@ section > h5 {
 
 section {
     margin-bottom: 10px;
-}
-
-section > h1 {
-    font-size: 120%;
-    line-height: 120%;
-    text-transform: uppercase;
 }
 
 article {
