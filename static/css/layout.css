@@ -41,27 +41,27 @@ p, address {
 
 header > h1, section > h1 {
     color: #0066AE;
-    text-align: justify;
+
 }
 header > h5, section > h5 {
     color: #0066AE;
-    text-align: justify;
+
 }
 header > h1 {
     line-height: 100%;
     font-size: 160%;
     margin-bottom: 10px;
-    text-align: justify;
+
 }
 
 .container > header p, .container > header address {
     margin-bottom: 10px;
-    text-align: justify;
+
 }
 
 .container > header p:last-child {
     margin-bottom: 10px;
-    text-align: justify;
+
 }
 
 section {
