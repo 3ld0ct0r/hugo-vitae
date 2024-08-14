@@ -54,6 +54,12 @@ header > h1 {
 
 }
 
+section > h5 {
+    font-size: 120%;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
 .container > header p, .container > header address {
     margin-bottom: 10px;
 

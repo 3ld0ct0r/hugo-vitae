@@ -30,8 +30,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline; 
-		text-align: justify;}
+		vertical-align: baseline;}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; 
 		/* make the text align both right and left */
