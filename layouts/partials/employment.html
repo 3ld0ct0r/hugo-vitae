@@ -5,18 +5,27 @@
     <header>
       <h1>{{ .prof }}</h1>
       <span>
-        <address><b>{{ .place }}</b><br/></address>
-        <time>{{ .time }}<br/></time>
+        <address><b>{{ .place }}</b><br /></address>
+        <time>{{ .time }}<br /></time>
       </span>
     </header>
-      <ul>
-    <li>{{ .description }}</li>
-     </ul> 
     <ul>
-      <li><i class="fa fa-caret-right" style="color:#0066AE"></i>&nbsp;&nbsp;{{ .description1 }}</li>
-      <li><i class="fa fa-caret-right" style="color:#0066AE"></i>&nbsp;&nbsp;{{ .description2 }}</li>
-      <li><i class="fa fa-caret-right" style="color:#0066AE"></i>&nbsp;&nbsp;{{ .description3 }}</li>
-      <li><i class="fa fa-rocket" style="color:#1dae00"></i>&nbsp;&nbsp;<b>{{ .description4 }}</b></li>
+      <li>{{ .description }}</li>
+    </ul>
+    <ul>
+      <li>
+        <i class="fa fa-caret-right" style="color: #0066ae"></i>&nbsp;&nbsp;{{
+        .description1 }}
+      </li>
+      <li>
+        <i class="fa fa-caret-right" style="color: #0066ae"></i>&nbsp;&nbsp;{{
+        .description2 }}
+      </li>
+      <li>
+        <i class="fa fa-rocket" style="color: #1dae00"></i>&nbsp;&nbsp;<b
+          >{{ .description3}}</b
+        >
+      </li>
     </ul>
   </article>
   {{ end }}
